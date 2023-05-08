@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #main {
+    background-color:#b02828;
+    margin: 20px 5px;
+    border-radius: 5px;
+    font-family: sans serif;
+  }
+  
+  #head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+  }
+  
+  #title {
+    color: #e0c916;
+    font-weight: 800;
+  }
+  
+  #img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 0px;
+    background-color: #D9D6CF;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  
+  #image {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px;
+  }
+  
+  #img-caption {
+    align-self: center;
+    padding: 5px;
+    color: black;
+    font-style: italic;
+  }
+  
+  #tribute-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+  }
+  
+  #tribute-info p {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  #list {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    margin: 0 0 0 10px;
+    max-width: 40rem;
+  }
+  
+  #bottom {
+    background-color: #D9D6CF;
+    font-size: 18px;
+    border-top: 2px solid black;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #tribute-link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+  }
